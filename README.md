@@ -1,5 +1,5 @@
 # NLP-Based Sentiment Dissection of Apple Vision Pro Reception on Marques Brownlee’s YouTube Channel.
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FMKBHD%2Fstatus%2F1752330979790708844&psig=AOvVaw3eUaHjo4BQizOnB07Qa1DU&ust=1714669242640000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIjqsoX37IUDFQAAAAAdAAAAABAS)
+![Image 1](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FMKBHD%2Fstatus%2F1752330979790708844&psig=AOvVaw3eUaHjo4BQizOnB07Qa1DU&ust=1714669242640000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIjqsoX37IUDFQAAAAAdAAAAABAS)
 ## Project Description
 In this project description, we will cover:
 * Project Overview:
