@@ -9,7 +9,8 @@ The Apple Vision Pro, a cutting-edge product in the realm of augmented reality, 
 The project aims to analyze viewer comments on Marques Brownlee's YouTube channel related to the Apple Vision Pro. By using Natural Language Processing (NLP) techniques, the project seeks to understand the sentiments expressed in the comments and identify whether viewers are inclined towards purchasing the product. The insights gained from this analysis will help the Product Development Team at Apple assess the reception of the Apple Vision Pro among Marques Brownlee's audience
 
 ### Objectives
-The main objective of this study is to evaluate 
+The main objective of this study is to analyze viewer sentiments in comments on Marques Brownlee’s YouTube videos reviewing the Apple Vision Pro product.The analysis aims to gauge public reception, identify prevalent sentiments and themes, and understand how these sentiments correlate with viewer engagement metrics. This insight will guide marketing strategies, inform product enhancements, and improve customer engagement practices.
+
 1. Sentiment Analysis: Use NLP to analyze the sentiment of viewer comments towards the Apple Vision Pro. Identify positive, negative, and neutral sentiments.
 2. Purchase Intent Analysis: Determine the likelihood of viewers purchasing the Apple Vision Pro based on their comments.
 3. Insights Generation: Provide actionable insights to the Product Development Team at Apple regarding the reception of the Apple Vision Pro among Marques Brownlee's viewers.
