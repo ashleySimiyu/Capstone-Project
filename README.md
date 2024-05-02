@@ -28,9 +28,11 @@ Our main objective of this study is to analyze viewer sentiments in comments on 
 The data for this project consists of comments from Marques Brownlee's YouTube channel related to the Apple Vision Pro review videos. The comments are collected using the **YouTube Data API**, which allows access to public comments on YouTube videos. Each comment is associated with metadata such as the commenter's username, comment timestamp, comment text, and number of likes. The comments provide insights into viewers' opinions, feedback, and preferences regarding the Apple Vision Pro product. The comments will be preprocessed to remove special characters, stopwords, tokenize the text, lemmatize and perform sentiment analysis using NLP techniques.
 * We first install the Python packages using pip
 > %pip install --upgrade google-api-python-client
+
 > %!pip install textblob
 * We then Set up our YouTube Data API
 ![Screenshot (43)](https://github.com/ashleySimiyu/Capstone-Project/assets/141912273/b5a0c23f-8ffb-4a80-bf1f-0a62a1182f5c)
+ * We checked the top 10 most viewed videos done by Marques Brownlee, and these were the results which included The Apple Vision Pro product.
 ### Data Structure
   * Data Format: CSV
   * Number of rows = 59,274
@@ -45,6 +47,11 @@ The data for this project consists of comments from Marques Brownlee's YouTube c
   * Likes: Integer
   * Author: String
   * Timestamp: DateTime
+### Data Cleaning
+1. **Emoji and Non-English Word Removal:** Emojis and non-English words were removed from the comments as they were considered noise. Any comment containing only emojis or non-English words was treated as an empty row and removed from the dataset.
+2. **Tokenization:** The comments were tokenized, splitting them into individual words or tokens. This step is essential for further analysis as it breaks down the text into manageable units.
+3. **Stopwords removal:** Removing stopwords helps reduce noise in the data and focuses the analysis on more meaningful words.
+4. **Lemmatization:** Lemmatization was applied to the tokens to reduce them to their base or root form. 
 
 ## Modelling 
 We are using Natural Language Processing (NLP) techniques to analyze the sentiments expressed in the comments.
