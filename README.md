@@ -67,6 +67,7 @@ This value is closer to 0 than to 1, suggesting that the comments, on average, t
 
 ### 2. VADER Model
 **Average VADER Sentiment:** 0.16775339665611289
+![Uploading VADER sentiment Distribution.png…]()
 
 ### 3. SUPPORT VECTOR MACHINES (SVM) Model
 **Accuracy:** 0.9141825587854101
@@ -75,8 +76,20 @@ The model does a good job in correctly identifying Positive sentiments, with a h
 ### 4. Long Short-Term Memory (LSTM) Model
 With a low log loss of 0.436 and a high accuracy of approximately 92.37% on the test dataset indicates that the model has performed better
 ## Conclusion
+In conclusion, the project provides a solid foundation for enhancing marketing strategies by utilizing key words that have positive sentiment scores. This project shows that Apple can track how to gain more clients or customers by incoporating NLP analysis. 
 
+The Apple Production Team can target different demographics responses to Apple Vision Pro product and monitor how it transitions to increase or decrease in their sales revenue. Therefore,they can develop and implement data-driven strategies aimed at improving customer satisfaction, and ultimately increase sales of such products.
 
-### Key Findings
+## Recommendations
+- **Product Development:** Use insights from sentiment analysis to guide the Apple Vision Pro product development and improvement. Features of the prodcut are consistently viewed negatively, these areas could be prioritized for upgrades.
 
-### Recommendations
+- **Marketing Strategies:** Adjust marketing strategies based on the sentiments expressed. For products receiving positive sentiments, highlight these aspects in marketing campaigns.
+
+- **Customer Service:** Implement findings to improve customer service by addressing common complaints or queries that arise in sentiment analysis.
+
+## Next Steps
+**Expand Training Data:** Incorporate more data from other sources or additional YouTube channels to improve the model's robustness and generalizability.
+
+**Cross-Platform Analysis:** Expand the analysis to include data from other social media platforms like Twitter, Facebook, or Instagram to gain a more comprehensive view of public sentiment.
+
+**Demographic Analysis:** If possible, analyze sentiments across different demographics to tailor products or marketing more effectively to specific groups.
