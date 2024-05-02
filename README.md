@@ -31,9 +31,12 @@ The data for this project consists of comments from Marques Brownlee's YouTube c
 
 > %!pip install textblob
 * We then Set up our YouTube Data API
+  
 ![Screenshot (43)](https://github.com/ashleySimiyu/Capstone-Project/assets/141912273/b5a0c23f-8ffb-4a80-bf1f-0a62a1182f5c)
  * We checked the top 10 most viewed videos done by Marques Brownlee, and these were the results which included The Apple Vision Pro product.
+
 ![Top 10 Videos by Views](https://github.com/ashleySimiyu/Capstone-Project/assets/141912273/ef454237-87c6-4d94-9565-dfe64e2721f1)
+
  * From the chart,here were two videos featuring the Apple Vision Pro product.. We combined the two videos to create a dataset that would be used for analysis.    
 ### Data Structure
   * Data Format: CSV
