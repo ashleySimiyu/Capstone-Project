@@ -33,6 +33,8 @@ The data for this project consists of comments from Marques Brownlee's YouTube c
 * We then Set up our YouTube Data API
 ![Screenshot (43)](https://github.com/ashleySimiyu/Capstone-Project/assets/141912273/b5a0c23f-8ffb-4a80-bf1f-0a62a1182f5c)
  * We checked the top 10 most viewed videos done by Marques Brownlee, and these were the results which included The Apple Vision Pro product.
+![Top 10 Videos by Views](https://github.com/ashleySimiyu/Capstone-Project/assets/141912273/ef454237-87c6-4d94-9565-dfe64e2721f1)
+ * From the chart,here were two videos featuring the Apple Vision Pro product.. We combined the two videos to create a dataset that would be used for analysis.    
 ### Data Structure
   * Data Format: CSV
   * Number of rows = 59,274
@@ -57,6 +59,10 @@ The data for this project consists of comments from Marques Brownlee's YouTube c
 We are using Natural Language Processing (NLP) techniques to analyze the sentiments expressed in the comments.
 These are the results:
 ### Textblob Model
+**Average Polarity:** 0.07427583991647495
+This positive value, although close to zero, indicates a slight overall positive sentiment across all the comments analyzed. This suggests that, on average, the comments tend to be more positive than negative, but only marginally so.
+**Average Subjectivity:** 0.38530032477277043
+This value is closer to 0 than to 1, suggesting that the comments, on average, tend to be somewhat objective. However, there is still a significant presence of personal opinions and subjectivity in the data.
 
 ## Conclusion
 
