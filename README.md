@@ -30,7 +30,7 @@ The data for this project consists of comments from Marques Brownlee's YouTube c
 > %pip install --upgrade google-api-python-client
 > %!pip install textblob
 * We then Set up our YouTube Data API
-!
+![Screenshot (43)](https://github.com/ashleySimiyu/Capstone-Project/assets/141912273/b5a0c23f-8ffb-4a80-bf1f-0a62a1182f5c)
 ### Data Structure
   * Data Format: CSV
   * Number of rows = 59,274
