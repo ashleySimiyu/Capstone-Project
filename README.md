@@ -9,14 +9,13 @@ The Apple Vision Pro, a cutting-edge product in the realm of augmented reality, 
 The project aims to analyze viewer comments on Marques Brownlee's YouTube channel related to the Apple Vision Pro. By using Natural Language Processing (NLP) techniques, the project seeks to understand the sentiments expressed in the comments and identify whether viewers are inclined towards purchasing the product. The insights gained from this analysis will help the Product Development Team at Apple assess the reception of the Apple Vision Pro among Marques Brownlee's audience
 
 ### Objectives
-The main objective of this study is to analyze viewer sentiments in comments on Marques Brownlee’s YouTube videos reviewing the Apple Vision Pro product.The analysis aims to gauge public reception, identify prevalent sentiments and themes, and understand how these sentiments correlate with viewer engagement metrics. This insight will guide marketing strategies, inform product enhancements, and improve customer engagement practices.
-
-1. Sentiment Analysis: Use NLP to analyze the sentiment of viewer comments towards the Apple Vision Pro. Identify positive, negative, and neutral sentiments.
-2. Purchase Intent Analysis: Determine the likelihood of viewers purchasing the Apple Vision Pro based on their comments.
-3. Insights Generation: Provide actionable insights to the Product Development Team at Apple regarding the reception of the Apple Vision Pro among Marques Brownlee's viewers.
-4. Report Preparation: Create a detailed report summarizing the findings and recommendations for further action.
+Our main objective of this study is to analyze viewer sentiments in comments on Marques Brownlee’s YouTube videos reviewing the Apple Vision Pro product.
+  * Other Objectives are:
+1. Purchase Intent Analysis: Determine the likelihood of viewers purchasing the Apple Vision Pro based on their comments.
+2. Insights Generation: Provide actionable insights to the Product Development Team at Apple regarding the reception of the Apple Vision Pro among Marques Brownlee's viewers.
+3. Report Preparation: Create a detailed report summarizing the findings and recommendations for further action.
    
-*The primary stakeholders are the product development team, marketing team, and strategic decision-makers at Apple.*
+**The primary stakeholders are the product development team, marketing team, and strategic decision-makers at Apple.**
 
 ### Research Questions
 1. What are the top 10 viewed videos on Marques Brownlee's Channel?
@@ -26,19 +25,31 @@ The main objective of this study is to analyze viewer sentiments in comments on 
 5. What are the predominant themes?key words and sentiments expressed in viewer comments on Marques Brownlee’s YouTube videos?
    
 ## Data Understanding
-The data for this project consists of comments from Marques Brownlee's YouTube channel related to the Apple Vision Pro review videos. The comments are collected using the *YouTube Data API*, which allows access to public comments on YouTube videos. Each comment is associated with metadata such as the commenter's username, comment timestamp, comment text, and number of likes. The comments provide insights into viewers' opinions, feedback, and preferences regarding the Apple Vision Pro product. The comments will be preprocessed to remove special characters, stopwords, tokenize the text, lemmatize and perform sentiment analysis using NLP techniques.
-
+The data for this project consists of comments from Marques Brownlee's YouTube channel related to the Apple Vision Pro review videos. The comments are collected using the **YouTube Data API**, which allows access to public comments on YouTube videos. Each comment is associated with metadata such as the commenter's username, comment timestamp, comment text, and number of likes. The comments provide insights into viewers' opinions, feedback, and preferences regarding the Apple Vision Pro product. The comments will be preprocessed to remove special characters, stopwords, tokenize the text, lemmatize and perform sentiment analysis using NLP techniques.
+* We first install the Python packages using pip
+> %pip install --upgrade google-api-python-client
+> %!pip install textblob
+* We then Set up our YouTube Data API
+!
 ### Data Structure
   * Data Format: CSV
   * Number of rows = 59,274
   * Number ofcolumns = 4
 ###  Data Features 
-  1. Comment Text
-  2. Likes (Number of likes on the comment)
-  3. Author (The username of the author that made a comment) 
-  4. Timestamp (Time the comment was posted)
+  * Comment Text
+  * Likes (Number of likes on the comment)
+  * Author (The username of the author that made a comment)
+  * Timestamp (Time the comment was posted)
+### Data Types
+  * Comment text: String
+  * Likes: Integer
+  * Author: String
+  * Timestamp: DateTime
 
-
+## Modelling 
+We are using Natural Language Processing (NLP) techniques to analyze the sentiments expressed in the comments.
+These are the results:
+### Textblob Model
 
 ## Conclusion
 
