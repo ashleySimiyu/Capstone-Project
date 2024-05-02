@@ -58,12 +58,22 @@ The data for this project consists of comments from Marques Brownlee's YouTube c
 ## Modelling 
 We are using Natural Language Processing (NLP) techniques to analyze the sentiments expressed in the comments.
 These are the results:
-### Textblob Model
+### 1. Textblob Model
 **Average Polarity:** 0.07427583991647495
 This positive value, although close to zero, indicates a slight overall positive sentiment across all the comments analyzed. This suggests that, on average, the comments tend to be more positive than negative, but only marginally so.
 **Average Subjectivity:** 0.38530032477277043
 This value is closer to 0 than to 1, suggesting that the comments, on average, tend to be somewhat objective. However, there is still a significant presence of personal opinions and subjectivity in the data.
+![Uploading Sentiment Distribution - TextBlob Model.png…]()
 
+### 2. VADER Model
+**Average VADER Sentiment:** 0.16775339665611289
+
+### 3. SUPPORT VECTOR MACHINES (SVM) Model
+**Accuracy:** 0.9141825587854101
+The model does a good job in correctly identifying Positive sentiments, with a high count of true positives.However, the model struggles more with misclassifying Negative sentiments as Positive, and vice versa, which could be due to overlapping language cues used in Negative and Positive sentiments.
+
+### 4. Long Short-Term Memory (LSTM) Model
+With a low log loss of 0.436 and a high accuracy of approximately 92.37% on the test dataset indicates that the model has performed better
 ## Conclusion
 
 
